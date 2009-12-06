@@ -1,0 +1,31 @@
+2005-05-12 v0.3.4
+-support for login:passwd added
+-login:passwd setup with command line option
+-new rcfile options
+-fixed bugs with the 'auto page switch' 
+-some parts of the code rewritten
+-minor bugfixes, as usual
+
+2004-11-12 v0.3.3
+-auto page change after <n> seconds
+-"pause/resume downloads" feature added
+-"commit file" feature added
+-new rcfile options
+-new command line parameters
+-minor bugfixes
+
+2004-10-21 v0.3.2
+-fixed a critical bug that occured with gcc < 3.4 
+(update : after some research, gcc has nothing to do with it, just blame me for this shitty release)
+
+2004-10-19 v0.3.1
+-pidfile added
+-pidfile is now used for ftok() (now you can run several wmldonkey simultaneously)
+-rcfile parsing fixed
+
+2004-10-18 v0.3
+- config file support added
+- config file is now used for ftok()
+
+2004-10-15  v0.2
+- first public release
