@@ -171,7 +171,7 @@ SUBDIRS = intl po src
 
 wmldonkeydocdir = ${prefix}/doc/wmldonkey
 wmldonkeydoc_DATA = \
-	README\
+	README.md\
 	COPYING\
 	AUTHORS\
 	ChangeLog\
@@ -196,7 +196,7 @@ RECURSIVE_TARGETS = info-recursive dvi-recursive pdf-recursive \
 	all-recursive install-data-recursive install-exec-recursive \
 	installdirs-recursive install-recursive uninstall-recursive \
 	check-recursive installcheck-recursive
-DIST_COMMON = README $(srcdir)/Makefile.in $(srcdir)/configure \
+DIST_COMMON = README.md $(srcdir)/Makefile.in $(srcdir)/configure \
 	ABOUT-NLS AUTHORS COPYING ChangeLog INSTALL Makefile.am NEWS \
 	TODO acconfig.h acinclude.m4 aclocal.m4 config.guess \
 	config.h.in config.sub configure configure.in depcomp \

@@ -7,7 +7,7 @@ SUBDIRS = intl po src
 
 wmldonkeydocdir = ${prefix}/doc/wmldonkey
 wmldonkeydoc_DATA = \
-	README\
+	README.md\
 	COPYING\
 	AUTHORS\
 	ChangeLog\
